@@ -49,9 +49,10 @@ border-radius: 5px;
 
 .textarea {
 font-size: 15px;
-resize: none;
 border-radius: 5px;
-width: 192px;
+min-width: 190px;
+max-width: 190px;
+min-height: 30px;
 }
 
 p, .textarea {
@@ -67,4 +68,5 @@ margin-bottom: 10px;
 .button {
 cursor: pointer;
 margin-left: 10px;    
+
 }
