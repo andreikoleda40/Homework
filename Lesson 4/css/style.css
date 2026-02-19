@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+}
+
+.form {
+width: 300px;
+min-height: 100px;
+margin-left: 200px;
+display: block;
+}
+
+.border {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.form-group-one {
+  border: none;
+  padding-left: 20px;
+}
+.form-group-two {
+  border: none;
+}
+
+.form-group-title {
+  font-weight: bold;
+  position: absolute;
+  top: 17px;
+  left: 228px;
+  font-size: 20px;
+}
+
+.label p {
+margin-top: 30px
+}
+
+.paragraph {
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.input {
+border: 1px solid black;
+font-size: 15px;
+padding: 5px;
+border-radius: 5px;
+}
+
+.textarea {
+font-size: 15px;
+resize: none;
+border-radius: 5px;
+width: 192px;
+}
+
+p, .textarea {
+font-size: 10px;
+font-family: sans-serif;
+}
+
+.checkbox {
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+.button {
+cursor: pointer;
+margin-left: 10px;    
+}
