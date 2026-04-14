@@ -1,0 +1,36 @@
+html {
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 1320px;
+    max-height: 90px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+img {
+    max-width: 60px;
+}
