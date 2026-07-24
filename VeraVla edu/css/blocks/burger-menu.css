@@ -1,0 +1,111 @@
+@media (width > 576px) {
+  .header__burger-menu {
+    display: none;
+  }
+}
+
+@media (width <= 576px) {
+  .header__burger-menu {
+    display: none;
+    position: absolute;
+    align-items: center;
+    overflow: hidden;
+    gap: 0px 10px;
+    z-index: var(--layer-3);
+    padding: 0px 15px 0px 15px;
+    border-radius: 0 0 0 22px;
+    max-width: 320px;
+    height: 104px;
+    visibility: hidden;
+    opacity: 0;
+    right: -100vh;
+    margin-top: -27px;
+    margin-left: 80px;
+    box-shadow: 0 4px 34px 0 rgba(0, 0, 0, 0.35);
+    background: linear-gradient(313deg, #0b4d69 0%, #104c54 100%);
+    transition:
+      right var(--transition-time),
+      opacity var(--transition-time),
+      visibility var(--transition-time);
+  }
+}
+
+@media (width <= 576px) {
+  .header__menu--open {
+    z-index: var(--layer-3);
+    right: 0;
+    opacity: 1;
+    display: flex;
+    visibility: visible;
+  }
+}
+
+.header__phone-decor {
+  display: flex;
+  position: relative;
+  left: 4px;
+  flex-shrink: 0;
+}
+
+.header__burger-number {
+  position: relative;
+  left: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--main-color);
+}
+
+.header__burger-number::before {
+  content: "";
+  position: relative;
+  z-index: var(--layer-2);
+  top: -17px;
+  left: -48px;
+  display: block;
+  border: 1px solid #3b768f;
+  width: 281px;
+  opacity: 0.3;
+}
+
+.header__burger-number::after {
+  content: "";
+  position: relative;
+  top: 22px;
+  left: 6px;
+  display: block;
+  z-index: var(--layer-2);
+  border: 1px solid #3b768f;
+  width: 226px;
+  opacity: 0.3;
+}
+
+@media (width > 576px) {
+  .header__burger {
+    display: none;
+  }
+}
+
+@media (width <= 576px) {
+  .header__burger-svg-cross {
+    z-index: var(--layer-3);
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.burger {
+  position: absolute;
+  top: 38px;
+  left: clamp(17.25rem, -2.594rem + 99.22vw, 33.125rem);
+  z-index: var(--layer-3);
+}
+
+.header__icons-phone,
+.burger--open .header__burger-svg-cross {
+  display: block;
+}
+
+.header__burger-svg-cross,
+.burger--open .header__icons-phone {
+  display: none;
+}

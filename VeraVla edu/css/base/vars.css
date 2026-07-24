@@ -1,0 +1,26 @@
+:root {
+  /* font-family */
+  --font-family: "avenirnextcyr", sans-serif;
+  /* container */
+  --container-width: 1258px;
+  --container-padding: 29px;
+  /* colors */
+  --main-color: #fff;
+  --bg-color-1: linear-gradient(313deg, #022335 0%, #043a41 100%);
+  --bg-color-2: linear-gradient(
+    313deg,
+    rgba(2, 35, 53, 0.8) 0%,
+    rgba(12, 55, 61, 0.8) 100%
+  );
+  /* transform */
+  --bg-transform: transform: rotate(-180deg);
+  /* layers */
+  --layer-negative: -1;
+  --layer-0: 0;
+  --layer-1: 1;
+  --layer-2: 2;
+  --layer-3: 3;
+  --layer-4: 4;
+  /* time */
+  --transition-time: 0.4s;
+}

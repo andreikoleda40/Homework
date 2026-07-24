@@ -1,0 +1,41 @@
+.page {
+  font-family: var(--font-family);
+}
+
+.container {
+  width: min(var(--container-width), 100% - var(--container-padding) * 2);
+  margin-inline: auto;
+}
+
+.text-demi {
+  font-weight: 600;
+}
+
+.text-heavy {
+  font-weight: 900;
+}
+
+.text-xs {
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+}
+
+.text-s {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.text-m {
+  font-weight: 750;
+  font-size: 20px;
+  color: #fff;
+}
+
+.text-l {
+  font-weight: 500;
+  font-size: 54px;
+  text-transform: uppercase;
+  color: #fff;
+}

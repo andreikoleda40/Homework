@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg">   
+<symbol id="neuron-little-greeting" width="126" height="126" viewBox="0 0 126 126" fill="none">
+  <g filter="url(#filter0_d_177_2215)">
+    <circle cx="63" cy="56" r="50" fill="url(#paint0_linear_177_2215)" shape-rendering="crispEdges" />
+  </g>
+  <defs>
+    <filter id="filter0_d_177_2215" x="0" y="0" width="126" height="126" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feMorphology radius="7" operator="erode" in="SourceAlpha" result="effect1_dropShadow_177_2215" />
+      <feOffset dy="7" />
+      <feGaussianBlur stdDeviation="10" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.88 0 0 0 0 1 0 0 0 1 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_177_2215" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_177_2215" result="shape" />
+    </filter>
+    <linearGradient id="paint0_linear_177_2215" x1="63" y1="6" x2="63" y2="106" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03E1FF" stop-opacity="0.66" />
+      <stop offset="1" stop-color="#13CDC2" />
+    </linearGradient>
+  </defs>
+</symbol>
+</svg>
